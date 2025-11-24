@@ -127,6 +127,28 @@ section h3 {
   padding: 8px;
 }
 
+.remove-participant {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 6px 8px;
+  line-height: 1;
+  border-radius: 6px;
+  transition: background-color 0.12s, transform 0.08s;
+}
+
+.remove-participant:hover {
+  background-color: rgba(198,40,40,0.08);
+  transform: translateY(-1px);
+}
+
+.remove-participant:focus {
+  outline: 2px solid rgba(198,40,40,0.18);
+}
+
 .form-group {
   margin-bottom: 15px;
 }
